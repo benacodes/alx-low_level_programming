@@ -2,9 +2,9 @@
 /**
  * _islower - Function that checks for lowercase character
  *
- * c: representing alphabet
+ * @c: representing alphabet
  *
- * Return: 1 if lowercase, 0 if otherwise
+ * Return: 1 if lowercase. 0 if otherwise
  */
 
 int _islower(int c)
@@ -17,6 +17,5 @@ int _islower(int c)
 	{
 	Return(0);
 	}
-
 	_putchar('\n');
 }
