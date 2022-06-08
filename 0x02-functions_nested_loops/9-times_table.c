@@ -17,7 +17,7 @@ void times_table(void)
 			o = m * n;
 			_putchar(44);
 			_putchar(32);
-			if (c <= 9)
+			if (o <= 9)
 			{
 				_putchar(32);
 				_putchar(c + 48);
