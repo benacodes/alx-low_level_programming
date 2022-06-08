@@ -20,12 +20,12 @@ void times_table(void)
 			if (o <= 9)
 			{
 				_putchar(32);
-				_putchar(c + 48);
+				_putchar(o + 48);
 			}
 			else
 			{
-				_putchar((c / 10) + 48);
-				_putchar((c % 10) + 48);
+				_putchar((o / 10) + 48);
+				_putchar((o % 10) + 48);
 			}
 		}
 	_putchar('\n');
