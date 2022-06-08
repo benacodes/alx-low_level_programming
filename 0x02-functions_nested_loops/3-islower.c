@@ -4,12 +4,12 @@
  *
  * c: representing alphabet
  *
- * Return: 1 if true, 0 if flase
+ * Return: 1 if lowercase, 0 if otherwise
  */
 
 int _islower(int c)
 {
-	if (c >= 97 && c <= 122 c++)
+	if (c >= 97 && c <= 122)
 	{
 	Return(0);
 	}
