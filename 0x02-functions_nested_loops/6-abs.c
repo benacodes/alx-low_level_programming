@@ -4,7 +4,7 @@
  *
  * @a: integer number
  *
- * Return: "a" for absolute value. -1 for otherwise
+ * Return: "a" for absolute value. "-a" for otherwise
  */
 
 int _abs(int a)
@@ -15,6 +15,6 @@ int _abs(int a)
 	}
 	else
 	{
-	return (-1);
+	return (-a);
 	}
 }
