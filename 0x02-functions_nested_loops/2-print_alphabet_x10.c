@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 {
 	int i, c;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i <= 9)
 
 	for (c = 97; c <= 122; c++)
 	{
@@ -17,5 +17,6 @@ void print_alphabet_x10(void)
 	}
 	{
 		_putchar('\n');
+		i++
 	}
 }
