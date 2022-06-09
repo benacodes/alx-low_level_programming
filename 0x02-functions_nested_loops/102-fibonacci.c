@@ -1,19 +1,31 @@
 #include <stdio.h>
 /**
- * main - Print natural numbers in multiples of 3 or 5 below 1024
+ * main - Print the first 50 fibonacci numbers
  *
  * Return: Return 0
  */
 
 int main(void)
 {
-	int a, b;
+	int i, j, k, next;
 
-	for (a = 1; a < 1024; a++)
+	j = 1;
+	k = 2;
+
+	for (i = 1; i <= 50; i++)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-		b += a;
+		if (j != 20365011074)
+		{
+			printf("%ld,", j);
+		}
+		else
+		{
+			prinf("%ld\n", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("%d\n", b);
+
 	return (0);
 }
