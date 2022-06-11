@@ -15,6 +15,7 @@ void print_triangle(int size)
 			_putchar(' ');
 		for (k = ro + co; k >= 1; k--)
 			_putchar('#');
+		
 		_putchar('\n');
 	}
 }
