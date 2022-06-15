@@ -1,17 +1,12 @@
 #include "main.h"
 /**
- * _strlen - length of string
- * @s: character
- * Return: length
+ * _strlen - Print length of string
+ * @s: parameter
+ * Return: 0 Always
  */
 int _strlen(char *s)
 {
-	int len = 0;
+	int myLen = strlen(s);
 
-	while (*s != '\0')
-	{
-		*s++;
-		len++;
-	}
-	return (len);
+	return (myLen);
 }
