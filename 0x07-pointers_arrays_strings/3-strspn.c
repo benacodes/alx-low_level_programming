@@ -1,6 +1,6 @@
 #iclude "main.h"
 /**
- * _strspon - Gets the length of a aprefix substring
+ * _strspn - Gets the length of a aprefix substring
  * @s: Initial segment
  * @accept: Accepted bytes
  * Return: Number of accepted bytes
