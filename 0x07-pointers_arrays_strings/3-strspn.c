@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 /**
  * _strspn - Gets the length of a aprefix substring
  * @s: Initial segment
