@@ -1,0 +1,1 @@
+Project on static libraries
