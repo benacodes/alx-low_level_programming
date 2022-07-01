@@ -18,7 +18,7 @@ void *malloc_checked(unsigned int x)
 	/*if malloc doesn't fail*/
 	if (ptr == NULL)
 	{
-		free(ptr)
+		free(ptr);
 		exit(98); /*Terminate process with 98 as return value*/
 	}
 	return (ptr);
