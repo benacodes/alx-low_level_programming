@@ -8,7 +8,7 @@
  */
 int op_add(int a, int b)
 {
-	rteurn (a + b);
+	return (a + b);
 }
 
 /**
@@ -51,7 +51,7 @@ int op_div(int a, int b)
 
 /**
  * op_mod - calculates the module of two numbers
- * @: first number
+ * @a: first number
  * @b: second number
  * Return: remainder of the division
  */
