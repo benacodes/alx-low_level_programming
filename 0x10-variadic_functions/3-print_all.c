@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 			{
 				printf(", ");
 				break;
-			} j++
+			} j++;
 		}
 		switch (format[i])
 		{
@@ -44,7 +44,7 @@ void print_all(const char * const format, ...)
 			}
 			printf("%s", str);
 			break;
-		} i++
+		} i++;
 	}
 	printf("\n"), va_end(valist);
 }
